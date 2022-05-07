@@ -1,6 +1,6 @@
 {
   "name": "hiennv-parse-server-jobs-scheduler",
-  "version": "1.1.1",
+  "version": "1.1.2",
   "description": "Jobs scheduler for Parse Server",
   "main": "./dist/index.js",
   "types": "./dist/index.d.ts",
@@ -17,7 +17,7 @@
     "typescript": "^3.5.3"
   },
   "dependencies": {
-    "axios": "^0.19.0",
+    "axios": "^0.27.0",
     "cron": "^1.7.1",
     "moment": "^2.24.0"
   },
