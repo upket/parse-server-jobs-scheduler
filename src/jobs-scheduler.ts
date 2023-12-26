@@ -46,7 +46,11 @@ export default class JobsScheduler {
       .createWithoutData(jobId)
       .fetch({ useMasterKey: true })
       .then((jobSchedule: Parse.Object) => {
-        this.recreateJobSchedule(jobSchedule);
+        try {
+          this.recreateJobSchedule(jobSchedule);
+        } catch (error) {
+          console.log(error);
+        }
       });
   }
 
