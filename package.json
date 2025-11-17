@@ -1,5 +1,5 @@
 {
-  "name": "@hiennguyen92/parse-server-jobs-scheduler",
+  "name": "@upket/parse-server-jobs-scheduler",
   "version": "2.0.6",
   "description": "Jobs scheduler for Parse Server",
   "main": "./dist/index.js",
@@ -7,7 +7,7 @@
   "scripts": {
     "build": "rm -rf ./dist && ./node_modules/.bin/tsc"
   },
-  "author": "hiennguyen92",
+  "author": "upket",
   "license": "ISC",
   "devDependencies": {
     "@types/cron": "^2.0.1",

@@ -31,3 +31,10 @@ Parse.Cloud.afterDelete('_JobSchedule', async (request) => {
   scheduler.destroySchedule(request.object.id)
 });
 ```
+
+### for Build
+```sh
+$ npm run build
+```
+
+then run CMD.md
