@@ -1,6 +1,6 @@
 {
   "name": "@upket/parse-server-jobs-scheduler",
-  "version": "2.0.6",
+  "version": "2.0.7",
   "description": "Jobs scheduler for Parse Server",
   "main": "./dist/index.js",
   "types": "./dist/index.d.ts",
@@ -12,9 +12,9 @@
   "devDependencies": {
     "@types/cron": "^2.0.1",
     "moment": "^2.13.0",
-    "parse": "^4.1.0",
+    "parse": "6.1.1",
     "tslint": "^5.18.0",
-    "typescript": "^5.0.4"
+    "typescript": "5.9.3"
   },
   "dependencies": {
     "@types/parse": "^3.0.9",
@@ -24,5 +24,8 @@
   },
   "peerDependencies": {
     "parse": "*"
+  },
+  "engines": {
+    "node": ">=18.20.4 <19.0.0 || >=20.18.0 <21.0.0 || >=22.12.0 <23.0.0"
   }
 }
