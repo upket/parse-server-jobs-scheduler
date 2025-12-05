@@ -143,7 +143,7 @@ export default class JobsScheduler {
   }
 
   private daysOfWeekToCronString(daysOfWeek: number[]) {
-    const daysNumbers = [];
+    const daysNumbers: number[] = [];
 
     for (let i = 0; i < daysOfWeek.length; i++) {
       if (daysOfWeek[i]) {
